@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>지애 테스트</title>
+
+  <!-- KRDS 기본 CSS (먼저) -->
+  <link href="https://cdn.jsdelivr.net/npm/krds-uiux@1.0.3/resources/cdn/krds.min.css" rel="stylesheet" />
+  <!-- 커스텀 CSS (나중에) -->
+  <link href="resources/css/pages/main.css" rel="stylesheet" />
+
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov-dynamic-subset.min.css" />
+
+
+</head>
+<body>
+
+  <!-- 헤더 -->
+  <div id="header"></div>
+
+  <!-- 메인 레이아웃 -->
+  <div class="layout-wrapper">
+    <div id="side_navigation"></div>
+    <main id="main-content">
+      <section class="start-area">
+        <div class="main-inner">
+          <h3 class="sec-title">시작하기</h3>
+            <p class="sec-desc">디자인 시스템 구축을 위한 모든 자료가 준비되어 있어요. 지금 바로 최신 정보를 확인하고, 프로젝트를 시작해 보세요.</p>
+            <div class="g-conts-area"> 
+            <div class="krds-tab-area">
+              <!-- tab list -->
+              <div class="tab line">
+                <ul role="tablist">
+                  <li id="tab_login_01" role="tab" aria-selected="true" aria-controls="panel_login_01" class="active">
+                    <button type="button" class="btn-tab">디자이너 <i class="sr-only created"> 선택됨</i></button>
+                  </li>
+                  <li id="tab_login_02" role="tab" aria-selected="false" aria-controls="panel_login_02">
+                    <button type="button" class="btn-tab">개발자</button>
+                  </li>
+                  <li id="tab_login_03" role="tab" aria-selected="false" aria-controls="panel_login_03">
+                    <button type="button" class="btn-tab">정부 관계자</button>
+                  </li>
+                </ul>
+              </div>
+              <!-- //tab list -->
+              
+              <!-- tab contents -->
+              <div class="tab-conts-wrap layer">
+
+                <!--디자이너-->
+                <section id="panel_login_01" aria-labelledby="tab_login_01" class="tab-conts active" data-quick-nav="false">
+                 <div class="info-box designer">
+                      <ul class="box-list">
+                        <li>
+                          <a href="./outline/page-design-info1.html">
+                            <p class="tit">
+                              <span class="krds-badge outline-primary">튜토리얼</span>
+                              <strong><span>디자인 프로세스를 쉽게 배우세요</span></strong>
+                            </p>
+                            <p class="desc">단계별로 디자인 원칙을 익힐 수 있도록 안내합니다. 실제 사례를 통해 실용적인 노하우를 쌓아보세요.</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="./outline/page-design-info1.html">
+                            <p class="tit">
+                              <span class="krds-badge outline-primary">리소스</span>
+                              <strong><span>다양한 자료를 활용하세요</span></strong>
+                            </p>
+                            <p class="desc">디자인에 필요한 다양한 자료와 도구를 제공합니다. 템플릿, 아이콘, 색상 팔레트 등, 프로젝트에 필요한 모든 자료를 손쉽게 찾고 활용할 수 있습니다.</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="./outline/page-design-info1.html">
+                            <p class="tit">
+                              <span class="krds-badge outline-primary">디자인 토큰</span>
+                              <strong><span>일관성 있는 디자인을 위한 필수 요소</span></strong>
+                            </p>
+                            <p class="desc">디자인의 기본 요소를 코드로 정의하여 일관성을 유지할 수 있도록 돕습니다. 디자인 언어를 통일하고, 효율적인 스타일 가이드를 구축하세요.</p>
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="img">
+                        <img src="../../resources/img/source/img_main_start_designer.png" alt="">
+                      </div>
+                    </div>
+                </section>
+
+                <!--개발자-->
+                <section id="panel_login_02" aria-labelledby="tab_login_02" class="tab-conts" data-quick-nav="false">
+                  <div class="info-box developer">
+                          <ul class="box-list">
+                            <li>
+                              <a href="./outline/outline_03.html">
+                                <p class="tit">
+                                  <span class="krds-badge outline-primary">튜토리얼</span>
+                                  <strong><span>코드로 디자인을 구현하는 방법 배우기</span></strong>
+                                </p>
+                                <p class="desc">디자인 원칙을 코드로 구현할 수 있도록 단계별로 안내합니다. 실습 중심의 자료를 통해 필요한 기술을 익히고, 프로젝트에 바로 적용해 보세요.</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./outline/outline_05.html">
+                                <p class="tit">
+                                  <span class="krds-badge outline-primary">리소스</span>
+                                  <strong><span>다양한 자료를 활용하세요</span></strong>
+                                </p>
+                                <p class="desc">API 문서, 코드 샘플, 라이브러리와 같은 유용한 자료를 제공합니다. 효율적인 개발을 위해 필요한 모든 도구를 한 곳에서 찾아보세요.</p>
+                              </a>
+                            </li>
+                          </ul>
+                          <div class="img">
+                            <img src=".../../resources/img/source/img_main_start_developer.png" alt="">
+                          </div>
+                        </div>
+                </section>
+                
+                <!--정부 관계자-->
+                <section id="panel_login_03" aria-labelledby="tab_login_03" class="tab-conts" data-quick-nav="false">
+                 <div class="info-box government">
+                      <ul class="box-list">
+                        <li>
+                          <a href="./outline/outline_04.html">
+                            <p class="tit">
+                              <span class="krds-badge outline-primary">튜토리얼</span>
+                              <strong><span>효율적인 활용 방법 배우기</span></strong>
+                            </p>
+                            <p class="desc">시스템을 효과적으로 관리하고 최적화할 수 있도록 단계별로 안내합니다. 콘텐츠를 통해 운영 과정에서의 핵심 기술을 익혀보세요.</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="./outline/outline_05.html">
+                            <p class="tit">
+                              <span class="krds-badge outline-primary">리소스</span>
+                              <strong><span>필요한 자료를 제공받으세요</span></strong>
+                            </p>
+                            <p class="desc">가이드 적용을 위한 체크리스트를 제공합니다. 자료를 통해 보다 체계적이고 효과적인 운영을 지원받으세요.</p>
+                          </a>
+                        </li>
+                      </ul>
+                      <div class="img">
+                        <img src="../../resources/img/source/img_main_start_government.png" alt="">
+                      </div>
+                    </div>
+                </section>
+
+            </div>
+          </div>
+          </div>
+        </div>
+        </section>
+    </main>
+  </div>
+
+  <!-- 푸터 -->
+  <div id="footer"></div>
+
+  <!-- header, footer, side navigation fetch -->
+
+
+  <script src="resources/cdn/main.js"></script>
+  <script src="resources/cdn/krds.min.js"></script>
+<script>
+    document.querySelectorAll('.btn-tab').forEach((btn) => {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('[role="tab"]').forEach(tab => {
+          tab.classList.remove('active');
+          tab.setAttribute('aria-selected', 'false');
+        });
+        document.querySelectorAll('.tab-conts').forEach(panel => {
+          panel.classList.remove('active');
+        });
+
+        const tabLi = this.closest('[role="tab"]');
+        tabLi.classList.add('active');
+        tabLi.setAttribute('aria-selected', 'true');
+
+        const panelId = tabLi.getAttribute('aria-controls');
+        document.getElementById(panelId).classList.add('active');
+      });
+    });
+  </script>
+  
+</body>
+</html>
